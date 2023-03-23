@@ -1,0 +1,72 @@
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-size: cover;
+      background-position: 0%;
+    }
+    .findname{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      margin-top: 20px;
+      text-align: left;
+      box-sizing: border-box;
+      width: 280px;
+      height: 60px;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 15px;
+      color: white;
+      transition: 0.3s;
+      cursor: pointer;
+      padding-left: 30px;
+      margin-bottom: 20px;
+    }
+    .findname:nth-child(odd){
+      background: linear-gradient(to right, orange, tomato);
+      transform: perspective(500px) rotatey(45deg);
+    }
+    .findname:nth-child(odd):hover{
+      transform: perspective(200px);
+    }
+    .findname:nth-child(odd):active{
+      opacity: 0.5;
+    }
+    .input{
+      background-color: cornsilk;
+      padding: 10px;
+      width: 300px;
+      font-size: 16px;
+      border-style: solid;
+    }
+    .search{
+      background-color: orange;
+      padding: 10px;
+      cursor: pointer;
+    }
+    
+    ul li{
+      list-style-type: none;
+      background-color: black;
+      margin:auto;
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      font-size: large;
+    }
+    .jump{
+      margin-bottom: 20px;
+      margin-right: 10px;
+      float: right;
+    }
+    .baby1{
+      width: 100%;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      object-fit: cover;
+    }
